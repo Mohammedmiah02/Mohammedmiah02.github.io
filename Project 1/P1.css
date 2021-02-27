@@ -1,0 +1,255 @@
+body {
+  background-color: white;
+}
+
+.header-container {
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+}
+
+.first-logo img {
+  width: 90px;
+  height: 70px;
+  float: left;
+}
+
+.second-logo {
+  width: 20%;
+  height: 70px;
+  float: right;
+}
+.second-logo img {
+  width:100%;
+  height:100%;
+}
+
+.Iceland-Container {
+  Width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.pink-container {
+  width: 1100px;
+  height: 500px;
+  border: 1px solid green;
+  background-color: pink;
+  margin-right: 20px;
+  color: white;
+}
+
+.pink-container p {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.sub img {
+  width: 190px;
+  height: 150px;
+  margin-left: 100px;
+  box-shadow: purple;
+  border: 2px solid purple;
+}
+
+.sub figcaption {
+  margin-left: 100px;
+  font-size: 10px;
+}
+
+.paragraph-container p {
+  height: 100px;
+  width: 400px;
+  position: relative;
+  bottom: 160px;
+  margin-left: 400px;
+  font-size: 12px;
+}
+
+.bottom-picture img {
+  width: 230px;
+  height: 150px;
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 800px;
+  position: relative;
+  bottom: 40px;
+  border: 2px solid purple;
+}
+
+.bottom-picture figcaption {
+  font-size: 12px;
+  position: relative;
+  top: 120px;
+  left: 686px;
+}
+
+.paragraph-container2 {
+  font-size: 12px;
+  position: relative;
+  left: 250px;
+}
+
+.upcoming-events-container {
+  width: 100%;
+}
+
+.upcoming-events-container ul li {
+  font-size: 12px;
+}
+
+.newsfeed-info {
+  font-size: 12px;
+}
+
+.right-margin {
+  margin-left: 30px;
+  margin-top: -13px;
+  line-height: 12px;
+}
+
+.costs-table {
+  border: 1px solid black;
+}
+
+.costs-table .red {
+  background-color: pink;
+}
+
+.costs-table th {
+  background-color: rgb(144, 238, 144);
+}
+
+.costs-table .center {
+  text-align: center;
+  background-color: rgb(144, 238, 144);
+}
+
+.costs-table .green {
+  background-color: rgb(144, 238, 144);
+}
+
+.phone-Icon {
+  height: 50px;
+  width: 50px;
+}
+
+.Phone-Icon img {
+  height: 50px;
+  width: 50px;
+  margin-left: 35px;
+}
+
+.Phone-Icon a {
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.Email-Icon {
+  margin-top: 20px;
+}
+
+.Email-Icon img {
+  height: 50px;
+  width: 50px;
+  margin-left: 35px;
+}
+
+.Email-Icon a {
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.IG-Icon {
+  margin-top: 20px;
+}
+
+.IG-Icon img {
+  height: 50px;
+  width: 50px;
+  margin-left: 35px;
+}
+
+.IG-Icon a {
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.nav-container {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+
+.nav-container a {
+  margin: 10px;
+}
+
+.nav-container p {
+  font-size: 12px;
+}
+
+.Ice-Climbing-Container {
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+
+.images-container{
+  width: 100%;
+  height: 200px;
+  float: left;
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+}
+
+.images-container img {
+  width: 220px;
+  height: 180px;
+  margin: 2px;
+  border: 1px solid black;
+}
+
+.text-box {
+  width: 220px;
+  height: 160px;
+  border: 2px solid blue;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  margin: 2px;
+  background-color: #F5F5DC;
+  overflow: scroll;
+  position: flex;
+}
+
+.text-box div {
+  width: 80%
+  height: 100%;
+}
+
+.text-box p {
+  width: 100%;
+  height: 80%;
+
+}
+
+.glacier-info {
+  font-size: 12px;
+}
+
+.Northern-Lights-Container {
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
