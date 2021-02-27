@@ -1,0 +1,235 @@
+.Modal-Container {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 20%;
+}
+
+.Modal1-Container {
+    height: 100%;
+    width: 300px;
+    border: 2px solid red;
+    position: relative;
+    right: 180px;
+    left: 150px;
+    margin-left: 530px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 110px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.img-paragraph {
+    font-size: 12px;
+    text-align: center;    
+    position: relative;
+    right: 480px;
+    top: 70px;
+    margin-left: 380px;
+    padding: 0px;
+}
+
+.img-paragraph p {
+    width: 200px;
+    height: 50px;
+}
+
+.orange {
+  background-color: orange;
+  border-radius: 25px;
+  width: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.Modal {
+    position: fixed;
+    background-color:  rgba(12, 68, 152, 0.797);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;    
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+}
+
+.Modal:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.infoblock {
+    position: relative;
+    margin: 5% auto auto auto;
+    height: 80%;
+    width: 60%;
+    background-color: orange;
+}
+
+.close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+
+.close:hover {
+    color:black;
+}
+
+.Modal2-Container {
+    height: 100%;
+    width: 300px;
+    border: 2px solid red;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+    right: 350px;
+}
+
+.img2-paragraph {
+    position: relative;
+    right: 700px;
+    top: 60px;
+    bottom: 5px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.img2-paragraph p {
+    width: 200px;
+    height: 100px;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}
+
+.img2-paragraph a {
+    position: relative;
+    bottom: 60px;
+    height: 50px;
+    width: 20px;
+    font-size: 12px;
+}
+
+.orange-2 {
+  background-color: orange;
+  border-radius: 25px;
+  width: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.infoblock h2 {
+    height: 50px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    background-color: pink;
+}
+
+.infoblock p {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: pink;
+}
+
+.infoblock img {
+    width: 40%;
+    margin-right: 70px;
+    position: relative;
+    left: 50px;
+}
+
+.infoblock a {
+    margin-top: 300px;
+    position: absolute;
+    right: 100px;
+    bottom: 140px;
+    padding: -15px;
+    background-color: purple;
+    color:#63b5cf;
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal2 {
+    position: fixed;
+    background-color:  rgba(2, 172, 133, 0.673);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;    
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+}
+
+.Modal2:target {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.infoblock2 {
+    position: relative;
+    margin: 3% auto auto auto;
+    height: 80%;
+    width: 60%;
+    background-color: #87ceeb;
+}
+
+.infoblock2 h2 {
+    height: 50px;
+    margin-top: 0;
+    background-color: pink;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.infoblock2 p {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: pink;
+}
+
+.infoblock2 img {
+    width: 40%;
+    margin-right: 70px;
+    position: relative;
+    left: 50px;
+}
+
+.infoblock2 a {
+    background-color: white;
+    position: relative;
+    float: right;
+    bottom: 162px;
+}
