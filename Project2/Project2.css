@@ -1,0 +1,625 @@
+body {
+    background-color: lightyellow;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: 90%;
+}
+
+.header-container {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* logo */
+.left-image {
+    border: 2px solid rgb(119, 128, 0);
+    border-radius: 15px;
+    box-shadow: lightgoldenrodyellow;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {left: 100px;}
+    to {left: 5px;}
+}
+
+.logo {
+    animation: color 5s infinite;
+    border-radius: 12px;
+}
+@keyframes color {
+    from {background-color: lightyellow;}
+    to {background-color: red;}
+}
+
+.left-image img {
+    height: 50px;
+    width: 50px;
+}
+
+/* heading animation */
+.heading-wrapper {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: cursive;
+    color: olive; 
+    animation: moveupdown 5s infinite;
+}
+@keyframes moveupdown {
+    0% {
+        top: -5%;
+        bottom: 100%;
+    }
+    25% {
+        top: 5%;
+        bottom: 100%;
+    }
+    50% {
+        top: 10%;
+        bottom: 100%;
+    }
+    75% {
+        top: 15%;
+        bottom: 100%;
+    }
+    100% {
+        top: -5%;
+        bottom: 100%;
+    }
+}
+
+.heading-wrapper2 {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    animation: h2moveupdown 5s infinite;
+    
+}
+@keyframes h2moveupdown {
+    0% {
+        top: 20%;
+        bottom: 100%;
+    }
+    25% {
+        top: 10%;
+        bottom: 100%;
+    }
+    50% {
+        top: 5%;
+        bottom: 100%;
+    }
+    75% {
+        top: 2%;
+        bottom: 100%;
+    }
+    100% {
+        top: 20%;
+        bottom: 100%;
+    }
+}
+
+/* Slides */
+.Frame {
+    position: relative;
+    top: 101px;
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Slidegroup {
+    position: relative;
+    height: 100%;
+    width: 400%;
+    display: flex;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0%;
+    }
+    13% {
+        margin-left: -100%;
+    }
+    26% {
+        margin-left: -100%;
+    }
+    39% {
+        margin-left: -200%;
+    }
+    52% {
+        margin-left: -200%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    78% {
+        margin-left: -100%;
+    }
+    91% {
+        margin-left: -0%;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
+.Slide1, 
+.Slide2,
+.Slide3,
+.Slide4 {
+    float: left;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    color: white;
+}
+
+.Slide1 {
+    background-color: olive;
+}
+
+.Slide2 {
+    background-color: purple;
+}
+
+.Slide3 {
+    background-color: red;
+}
+
+/* Flowers */
+.RedFlower-Container {
+    width: 88%;
+    height: 10%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+    margin-bottom: 50px;
+    /* border: 1px solid green; */
+}
+
+.RedFlower-Container img {
+    width: 100%;
+    height: 40%;
+}
+
+.Grey-box {
+    border: 3px solid white;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 15%;
+    bottom: -80px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Grey-box p {
+    line-height: 150%;
+}
+
+/* Boxes */
+.flower-left-image {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    /* border: 1px solid red; */
+}
+
+.flower-left-image img {
+    width: 400px;
+    height: 250px;
+}
+
+.text {
+    width: 250px;
+    height: 100px;
+    border: 1px solid #00FF00;
+    position: relative;
+    bottom: 220px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text p {
+    color: white;
+    font-size: 2.0vh;
+}
+
+.textbox {
+    width: 450px;
+    height: 247px;
+    position: relative;
+    left: 600px;
+    bottom: 179px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(#d59696, #C8A2C8, pink);
+}
+
+.desc-box {
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    margin-left: 20px;
+    margin-top: 40px;
+    color: olive;
+}
+
+.description {
+    /* border: 1px solid black; */
+    color: olive;
+    width: 90%;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 2.5vh;
+}
+
+/* Body Lotion Products */
+.Body-lotion-container {
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 150px;
+    height: 500px;
+    width: 100%;
+}
+
+.Body-lotion-container h4, hr {
+    color: olive;
+    margin-left: 80px;
+
+}
+
+.Body-lotion-container hr {
+    position: relative;
+    bottom: 15px;
+    width: 90%;
+}
+
+.Ritual-of-Sakura {
+    margin-left: 100px;
+    height: 80%;
+    width: 280px;
+    /* border: 1px solid black; */
+}
+
+.Ritual-of-Sakura img {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.content {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+}
+
+.content p {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.content .title {
+    color: olive;
+    font-size: 2.2vh;
+    /* border: 1px solid black; */
+}
+
+.content .bottle-size {
+    font-size: 1.9vh;
+}
+
+.content .price {
+    font-size: 2.3vh;
+}
+
+.content button {
+    margin-left: 95px;
+    height: 25px;
+    background-color: black;
+    
+}
+
+.content button:hover {
+    background-color: purple;
+}
+
+.content a {
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.Ritual-of-Ayurveda {
+    height: 80%;
+    width: 280px;
+    /* border: 1px solid black; */
+    margin-left: 450px;
+    position: relative;
+    bottom: 400px;
+}
+
+.Ritual-of-Ayurveda img {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.Ritual-of-Samsara {
+    height: 80%;
+    width: 280px;
+    /* border: 1px solid black; */
+    margin-left: 800px;
+    position: relative;
+    bottom: 160%;
+}
+
+.Ritual-of-Samsara img {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+/* MODAL WINDOWS */
+.Modal-background {
+    background-color: rgba(119, 119, 119, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal-background:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.infoblock {
+    background-color: white;
+    width: 42%;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+.infoblock h5 {
+    margin-left: 50px;
+}
+
+.infoblock hr {
+    width: 80%;
+    position: relative;
+    right: 6%;
+    bottom: 5%;
+}
+
+.infoblock img {
+    /* border: 1px solid black; */
+    height: 45%;
+    width: 30%;
+    margin-left: 47px;
+}
+
+.infoblock-content {
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 45%;
+    position: relative;
+    left: 45%;
+    bottom: 46.5%;
+}
+
+.infoblock-content p {
+    text-align: center;
+    font-size: 2.0vh;
+    /* border: 1px solid black; */
+}
+
+.infoblock-content .bottle-size {
+    font-size: 1.9vh;
+}
+
+.infoblock-content .price {
+    font-size: 2.3vh;
+}
+
+.infoblock-content .Mix-Match {
+    margin-top: 40px;
+}
+
+.infoblock-content2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 28%;
+    position: relative;
+    bottom: 50%;
+    background-color: #fa8072;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.infoblock-content2 p {
+    font-size: 2.4vh;
+    /* border: 1px solid black; */
+    width: 80%;   
+    height: 30%; 
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 5px;
+}
+
+.infoblock-content2 hr {
+    background-color: white;
+    width: 81%;
+    position: relative;
+    top: 3px;
+}
+
+.infoblock-content2 button {
+    margin-left: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.infoblock-content2 a {
+    text-decoration: none;
+}
+
+/* Josefina Gift Sets */
+.Gift-Set-Container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    position: relative;
+    bottom: 120px;
+}
+
+.Gift-Set-Container h4 {
+    color: olive;
+    margin-left: 80px;
+}
+
+.Gift-Set-Container hr {
+    position: relative;
+    bottom: 15px;
+    width: 90%;
+}
+
+.content-container {
+    position: relative;
+    left: 40px;
+    width: 95%;
+    height: 85%;
+    /* border: 1px solid black; */
+}
+
+/* CARD-1 */
+.Gift1-Container {
+    height: 94.7%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Gift1-Container img{
+    /* border: 1px solid black; */
+    width: 99%;
+    height: 50%;
+}
+
+.Gift-content {
+    text-align: center;
+}
+
+.Gift-content .title {
+    color: olive;
+    font-size: 2.2vh;
+    /* border: 1px solid black; */
+}
+
+.Gift-content .bottle-size {
+    font-size: 1.9vh;
+}
+
+.Gift-content .price {
+    font-size: 2.3vh;
+}
+
+.Gift-content button {
+    background-color: black;
+    height: 25px;
+}
+
+.Gift-content button:hover {
+    background-color: purple;
+}
+
+.Gift-content a {
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+/* CARD-2 */
+.Gift2-Container {
+    height: 94.5%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-left: 35%;
+    position: relative;
+    bottom: 95%;
+}
+
+.Gift2-Container img{
+    width: 99%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+/* CARD 3 */
+.Gift3-Container {
+    height: 94.5%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-left: 68%;
+    position: relative;
+    bottom: 190%;
+}
+
+.Gift3-Container img {
+    width: 99%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+/* FOOTER */
+.Dark-Container {
+    margin-left: 100px;
+    position: relative;
+    bottom: 200px;
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+}
+
+
